@@ -1,0 +1,32 @@
+.loginFrame1{
+    max-height: 100%;
+    max-width: 100%;
+}
+.loginFrame2{
+    margin: auto;
+    margin-block: 100px;
+    width: 50%;
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding-block: 10px;
+    box-shadow: 0 3px 10px rgb(192, 192, 192);
+}
+.inputStyle{
+    width: 80%;
+    height: 30px;
+    margin-inline: 10%;
+    margin-block: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.submitButton{
+    width: 50%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-inline: 25%;
+    margin-block: 10px;
+}
