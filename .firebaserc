@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "avb-cicd-demo"
+  }
+}
