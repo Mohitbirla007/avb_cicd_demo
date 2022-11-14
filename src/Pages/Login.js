@@ -22,6 +22,7 @@ const Login = React.memo(() => {
     return (
         <div className="loginFrame1">
             <div className="loginFrame2">
+                <p>Some change in login</p>
                 <input className="inputStyle" type='text' required placeholder="Email" onChange={(e) => setEmailAddress(e.target.value)} /><br />
                 <input className="inputStyle" type='password' required placeholder="Password" onChange={(e) => setPassword(e.target.value)} /><br />
                 <button className="submitButton" onClick={handleSubmit}>Login</button>
