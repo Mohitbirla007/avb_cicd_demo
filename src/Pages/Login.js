@@ -17,7 +17,7 @@ const Login = React.memo(() => {
         }
     }
     const findUser = (userData) => {
-        return userData.email == emailAddress && userData.password == password;
+        return userData.email === emailAddress && userData.password === password;
     }
     return (
         <div className="loginFrame1">
